@@ -11,6 +11,7 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
+import './style.css';
 
 import data from '../data';
 
@@ -75,6 +76,17 @@ const useStyles = makeStyles((theme) => ({
   main: {
     background: '#fff',
   },
+  name: {
+    marginTop: '2px',
+    height: '90px' ,
+  },
+  description: {
+    marginTop: '1px',
+    height: '100px' ,
+  },
+  price: {
+
+  },
   
   footer: {
     background: '#fff',
@@ -123,15 +135,15 @@ export default function App() {
                     
                   />
                   <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h6" component="h2">
+                    <Typography gutterBottom variant="h6" component="h2" className={classes.name}>
                       {card.name}
                     </Typography>
-                    <Typography gutterBottom variant="p" component="p">
+                    <Typography gutterBottom variant="p" component="p" className={classes.description}>
                       {card.description}
                     </Typography>
-                    <Typography gutterBottom variant="h6" component="h6" className={classes.price}>
-                      <br/>
-                      {card.price}
+                    <Typography gutterBottom variant="p" component="h6" className={classes.price}>
+                      <span className="price1">{card.price}</span>
+                      <span className="price2">{card.price2}</span>
                     </Typography>
                   </CardContent>
                 </Card>

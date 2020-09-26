@@ -1,0 +1,15 @@
+.price1 {
+    font-size: 14px;
+    display: inline-block;
+    font-weight: bold;
+    color: #F98B36;
+}
+
+.price2 {
+    font-size: 14px;
+    float: right;
+    color: rgba(0, 0, 0, .4);
+    text-decoration: line-through #000;
+    
+}
+
