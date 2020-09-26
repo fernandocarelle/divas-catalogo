@@ -82,10 +82,11 @@ const useStyles = makeStyles((theme) => ({
   },
   description: {
     marginTop: '1px',
+    marginBottom: '40px',
     height: '100px' ,
   },
   price: {
-
+    
   },
   
   footer: {
