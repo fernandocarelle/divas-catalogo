@@ -35,7 +35,7 @@ export default [
         "name": "Sobrancelha + Buço", "description": 
         "Depilação com cera ou pinça, o tratamento diminui a espessura do pelo e retarda seu crescimento. Todo material é descartável. " , 
         "price": "R$52,00", 
-        "price2": "R$58,00",
+        "price2": "R$56,00",
         "image": `${img2}`
     },
     {
