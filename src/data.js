@@ -26,7 +26,8 @@ import img24 from './assets/images/24.png';
 
 export default [
     {
-        "name": "Pé e mão + SPA dos pés", 
+        "name": "Pé e mão + SPA dos pés",
+        "obs": "*Válido Terças e Quartas",
         "description": "Manicure e pedicure: retirada de cutículas e pintura das unhas dos pés e mãos nas cores desejadas pela cliente",  
         "price": "R$39,00", 
         "price2": "R$74,01",

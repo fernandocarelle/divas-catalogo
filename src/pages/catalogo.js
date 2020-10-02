@@ -140,6 +140,7 @@ export default function App() {
                       {card.name}
                     </Typography>
                     <Typography gutterBottom variant="p" component="p" className={classes.description}>
+                      <strong>{card.obs}</strong> <br/>
                       {card.description}
                     </Typography>
                     <Typography gutterBottom variant="p" component="h6" className={classes.price}>
