@@ -24,6 +24,13 @@ import img22 from './assets/images/22.png';
 import img23 from './assets/images/23.png';
 import img24 from './assets/images/24.png';
 
+import img25 from './assets/images/25.png';
+import img26 from './assets/images/26.png';
+import img27 from './assets/images/27.png';
+import img28 from './assets/images/28.png';
+import img29 from './assets/images/29.png';
+import img30 from './assets/images/30.png';
+
 export default [
     {
         "name": "Pé e mão + SPA dos pés",
@@ -35,8 +42,8 @@ export default [
     {
         "name": "Sobrancelha + Buço", "description": 
         "Depilação com cera ou pinça, o tratamento diminui a espessura do pelo e retarda seu crescimento. Todo material é descartável. " , 
-        "price": "R$52,00", 
-        "price2": "R$56,00",
+        "price": "R$58,00", 
+        "price2": "R$63,00",
         "image": `${img2}`
     },
     {
@@ -192,5 +199,48 @@ export default [
         "price": "R$94,00",
         "price2": "R$118,00",
         "image": `${img24}`
+    },
+    {
+        "name": "Drenagem + Ultrasson 6 Sessões", 
+        "description": "Uma massagem que elimina o inchaço, ajuda a combater celulite e ajuda a emagrecer e perder a barriga. Além disso, ainda ativa o sistema imunológico.", 
+        "price": "R$700,00",
+        "price2": "R$1.100,00", 
+        "image": `${img25}`
+    },
+    {
+        "name": "Pump + Corrente Russa 6 Sessões", 
+        "description": "O Pump Up é a resposta para o sonho de levantar o bumbum. O procedimento é rápido, indolor e não invasivo, gerando resultados visíveis já na primeira sessão.", 
+        "price": "R$400,00",
+        "price2": "R$600,00", 
+        "image": `${img26}`
+    },
+    {
+        "name": "Dermaplaning + Limpeza de Pele", 
+        "description": "É uma novidade em rejuvenescimento facial baseado numa remoção física das camadas superficiais da pele e é feita com uma lâmina esterilizada de um bisturi ao longo da superfície cutânea da face e pescoço.", 
+        "price": "R$100,00", 
+        "price2": "R$120,00",
+        "image": `${img27}`
+    },
+    {
+        "name": "Endermoterapia + Ultrasson Pacote 06 Sessões", 
+        "description": "Responsável por fazer uma sucção, estimulando o sistema circulatório onde há celulite ou gordura localizada.", 
+        "price": "R$450,00",
+        "price2": "R$650,00", 
+        "image": `${img28}`
+    },
+    {
+        "name": "Jato de Plasma", 
+        "description": "O tratamento tem a capacidade de melhorar manchas solares e de envelhecimento, estrias, cicatrizes, olheiras, retirada de pintas e verrugas, e amenizar linhas de expressão e flacidez.", 
+        "price": "R$300,00",
+        "price2": "R$350,00", 
+        "image": `${img29}`
+    },
+    {
+        "name": "Clareamento de pele", 
+        "obs": "* Preço por área",
+        "description": "Para acabar com o problema, o clareamento é a melhor solução! Seja no rosto, virilha ou axilas, esse tratamento deixará a sua autoestima lá em cima.", 
+        "price": "R$69,00",
+        "price2": "R$89,00", 
+        "image": `${img30}`
     },
   ];
