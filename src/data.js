@@ -84,8 +84,8 @@ export default [
     {
         "name": "Meia Perna + Virilha Completa + Axila + Sobrancelha + Buço", 
         "description": "O tratamento diminui a espessura do pelo e retarda seu crescimento. ", 
-        "price": "R$162,00",
-        "price2": "R$201,00",
+        "price": "R$195,00",
+        "price2": "R$225,00",
         "image": `${img8}`
     },
     {
