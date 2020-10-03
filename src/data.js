@@ -69,7 +69,7 @@ export default [
     },
     {
         "name": "Luzes (topo 15 folhas)", 
-        "description": "Dê uma nova cor aos cabelos com as luzes * Válido de terça a quita das 09h às 19h (exceto feriados e datas comemorativas). ", 
+        "description": "Dê uma nova cor aos cabelos com as luzes * Válido de terça a quinta das 09h às 19h (exceto feriados e datas comemorativas). ", 
         "price": "R$280,00",
         "price2": "R$460,00",
         "image": `${img6}`
