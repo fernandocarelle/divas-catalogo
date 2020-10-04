@@ -40,8 +40,9 @@ export default [
         "price2": "R$74,01",
         "image": `${img1}`},
     {
-        "name": "Sobrancelha + Buço", "description": 
-        "Depilação com cera ou pinça, o tratamento diminui a espessura do pelo e retarda seu crescimento. Todo material é descartável. " , 
+        "name": "Sobrancelha + Buço", 
+        "obs": "*Válido Terças e Quartas",
+        "description": "Depilação com cera ou pinça, o tratamento diminui a espessura do pelo e retarda seu crescimento. Todo material é descartável. " , 
         "price": "R$58,00", 
         "price2": "R$63,00",
         "image": `${img2}`
@@ -54,7 +55,8 @@ export default [
         "image": `${img3}`
     },
     {
-        "name": "Corte + Secagem", 
+        "name": "Corte + Secagem",
+        "obs": "*Válido Terças e Quartas",
         "description": "Um corte de cabelo e uma mudança no visual nunca é demais! Você pode só aparar as pontinhas ou mudar totalmente seu look, para dar ainda mais vida a sua aparência.", 
         "price": "R$79,00",
         "price2": "R$149,00",
